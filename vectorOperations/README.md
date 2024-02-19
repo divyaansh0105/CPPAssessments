@@ -25,7 +25,15 @@ This C++ project provides implementations of basic vector operations. These oper
 - **Projection on Vector**: Calculate the projection of one vector onto another vector.
 - **Projection on Plane**: Calculate the projection of a vector onto a plane.
 
-#output
+# Output
+![vo4](https://github.com/divyaansh0105/CPPAssessments/assets/158050858/c68a4dbd-cb19-45a0-9e66-4d4101af1a1c)
+![vo5](https://github.com/divyaansh0105/CPPAssessments/assets/158050858/f70b89fa-d351-4a0b-a319-124037b604a8)
+![vo6](https://github.com/divyaansh0105/CPPAssessments/assets/158050858/86f10b08-252f-4216-80b2-cfff24d4affc)
+![vo9](https://github.com/divyaansh0105/CPPAssessments/assets/158050858/f8444447-7ea6-469d-a33c-7b5bf771c552)
+![vo3](https://github.com/divyaansh0105/CPPAssessments/assets/158050858/06e64595-a3e9-4bdc-8745-a729f6ee9253)
+
+
+
 ## Usage
  
 To use this library in your C++ project, follow the installation steps mentioned in the previous section. 
