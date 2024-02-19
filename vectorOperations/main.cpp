@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "./headers/GeomVector.h"
+#include "./headers/geomVector.h"
 #include "./headers/writer.h"
 #include "./headers/matrix.h"
 #include "./headers/plane.h"
@@ -11,7 +11,7 @@ int main()
     double x, x1;
     double y, y1;
     double z, z1;
-    std::cout << "enter ypur choice" << std::endl
+    std::cout << "Enter your choice" << std::endl
               << "1. Check if two vectors are equal" << std::endl
               << "2. Find magnitude of vector" << std::endl
               << "3. Find normalized vector" << std::endl
@@ -395,6 +395,18 @@ int main()
         writer.write(filepath, vectors); 
     }
     break;
+    case 20:
+        {
+            std::cout << "enter x, y and z value for vector1" << std::endl;
+            std::cin >> x >> y >> z;
+            Geometry::GeomVector a(x, y, z);
+            double result;
+            int value;
+            std::cout << "enter int value 0, 1 or 2" << std::endl;
+            std::cin >> value;
+            result = a.angleBetweenVectorAndAxis(value);
+        }
+        break;
     
     default:
         break;
