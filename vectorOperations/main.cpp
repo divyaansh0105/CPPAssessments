@@ -397,11 +397,13 @@ int main()
     break;
     case 20:
         {
+            //Take input for vector and axis
             std::cout << "enter x, y and z value for vector1" << std::endl;
             std::cin >> x >> y >> z;
             Geometry::GeomVector a(x, y, z);
             double result;
             int value;
+            // 0 for x 1 for y 2 for z
             std::cout << "enter int value 0, 1 or 2" << std::endl;
             std::cin >> value;
             result = a.angleBetweenVectorAndAxis(value);
