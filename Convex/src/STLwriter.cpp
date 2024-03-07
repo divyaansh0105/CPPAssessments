@@ -41,7 +41,7 @@ void STLWriter ::writeSTLToFile(std::string &filePath, Triangulation &triangulat
     cout<<"\nIn wirter:"<<points.size();
     for(auto i : points)
     {   
-       // cout<<i.x()<<" "<<i.y()<<" "<<i.z()<<endl;
+       
    
         outFile<<i.x()<<" "<<i.y()<<endl;
     }
