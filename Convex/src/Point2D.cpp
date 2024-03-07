@@ -22,17 +22,5 @@ void Point2D ::setY(double y)
     mY = y;
 }
 
-// bool Point2D::operator<(const Point2D &other) const
-// {
-//     if (mX < other.mX)
-//         return true;
-//     if (mX > other.mX)
-//         return false;
- 
-//     if (mY < other.mY)
-//         return true;
-//     if (mY > other.mY)
-//         return false;
- 
-// }
+
 Point2D::~Point2D() {}
