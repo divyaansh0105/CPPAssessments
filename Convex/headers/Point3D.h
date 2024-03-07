@@ -16,7 +16,7 @@
         void setZ(double z);
         bool operator<(const Point3D &other) const;
         
-        // bool checkPoint(Point3D p1);
+     
     private:
         double mX;
         double mY;
